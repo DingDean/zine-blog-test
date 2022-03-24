@@ -16,14 +16,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Setup Zine
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-      - uses: actions-rs/cargo@v1
-        with:
-          command: install
-          args: zine
+    - name: Setup Rust Toolchain
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+    - name: Install Zine
+      uses: actions-rs/cargo@v1
+      with:
+        command: install
+        args: zine
     - name: Build
       run: zine build
     - name: Publish Github Pages
