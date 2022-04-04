@@ -24,7 +24,7 @@ jobs:
       uses: actions-rs/cargo@v1
       with:
         command: install
-        args: zine
+        args: zine --git --rev 443f6de824f1ec38d05e291186e9b87176345c35
     - name: Build
       run: zine build
     - name: Publish Github Pages
