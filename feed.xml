@@ -2,24 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>zineblog</title>
     <subtitle></subtitle>
-    <updated>2022-03-24T14:27:52.084775331+00:00</updated>
-    <id>http://localhost</id>
-    <link href="http://localhost/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="http://localhost" rel="alternate" type="text/html" />
-    <generator uri="https://github.com/zineland/zine" version="0.2.1">zine</generator>
+    <updated>2022-04-04T13:15:46.549721107+00:00</updated>
+    <id>https://dingdean.github.io/zine-blog-test/</id>
+    <link href="https://dingdean.github.io/zine-blog-test//feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://dingdean.github.io/zine-blog-test/" rel="alternate" type="text/html" />
+    <generator uri="https://github.com/zineland/zine" version="0.3.0">zine</generator>
     <author>
         <name>zineblog</name>
-        <uri>http://localhost</uri>
+        <uri>https://dingdean.github.io/zine-blog-test/</uri>
     </author>
 
-    
     <entry>
         <title>First article</title>
-        <link rel="alternate" href="http://localhost/s1/1" type="text/html" title="First article" />
+        <link rel="alternate" href="https://dingdean.github.io/zine-blog-test//s1/1" type="text/html" title="First article" />
         <published>2022-03-24</published>
         <updated>2022-03-24</updated>
-        <id>http://localhost/s1/1</id>
-        <content type="html" xml:base="http://localhost/s1/1">
+        <id>https://dingdean.github.io/zine-blog-test//s1/1</id>
+        <content type="html" xml:base="https://dingdean.github.io/zine-blog-test//s1/1">
             <![CDATA[<p>Hello Zine</p>
 <p>Hello World</p>
 ]]>
@@ -29,5 +28,4 @@
             <name></name>
         </author>
     </entry>
-    
-</feed>
+    </feed>
